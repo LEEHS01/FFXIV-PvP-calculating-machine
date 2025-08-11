@@ -242,7 +242,7 @@ export default function App(){
               </div>
 
               <div className="field">
-                <label>전역 투쟁단계 (0~5)</label>
+                <label>투쟁단계 (0~5)</label>
                 <select value={globalF/10} onChange={e=>setGlobalF(Number(e.target.value)*10)}>
                   {STAGES.map(s=><option key={s} value={s}>{s}</option>)}
                 </select>
@@ -250,7 +250,7 @@ export default function App(){
 
               <div className="field">
                 <label>&nbsp;</label>
-                <button className="btnPrimary" onClick={applyGlobalF}>전역 단계로 일괄 적용</button>
+                <button className="btnPrimary" onClick={applyGlobalF}>파티원 투쟁단계 일괄 적용</button>
               </div>
             </div>
           </div>
