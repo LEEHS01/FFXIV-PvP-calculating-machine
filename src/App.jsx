@@ -159,7 +159,7 @@ export default function App(){
       {tab==="LB" && (
         <section className="grid2">
           <div className="card">
-            <h2>LB 설정 (LB=40,000 고정)</h2>
+            <h2>기공사 리미트 브레이크 40000딜</h2>
             <div className="fields">
               <div className="field">
                 <label>파티 인원수</label>
